@@ -1,0 +1,88 @@
+.head
+	//background-image: url(../../assets/img/6.jpg)
+	background-color: #06B6FF
+	background-size: cover
+	background-attachment : fixed;
+	height: 100vh
+	color: $white
+	background-repeat: no-repeat
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: column
+	position: relative
+	margin-bottom: 50px
+	transition: all 200ms ease-in-out
+
+	h4
+		font-size: 1em
+		font-family: 'Montserrat';
+		margin: 10px 0 0 320px
+		clear: both
+
+
+	//span
+		background-color: transparent
+		border-bottom: 3px solid $white
+		border-top: 3px solid $white
+		padding: 10px 0px
+		opacity: 0.9
+
+
+.clouds
+	position: absolute
+	bottom: -1px
+	text-align: center
+
+.clouds-container
+	display: flex
+	justify-content: center
+	align-items: center
+
+.header-blur
+	margin-left: -250px
+	//filter: blur(2px)
+
+.name
+	background-repeat: no-repeat
+	width: 477px
+	height: 99px
+	margin-top: 0px
+	clear: both
+
+.logo
+	background-repeat: no-repeat
+	position: absolute
+	top: 20px
+	left: 20px
+
+
+.andrei img
+	width: 100%
+	display: inline-block
+
+.head-hold
+	margin-top: -200px
+
+@media only screen and (max-width: 320px)
+  .name
+    width: 400px
+    height: 99px
+    text-align: center
+    margin-top: 0px
+
+  .andrei img
+    width: 50%
+    display: inline-block
+
+  .head h4
+    	text-align: center
+    	margin: -40px 0 0 0
+
+  footer
+   	font-size: 10px
+
+  .head
+  	overflow: hidden
+
+
